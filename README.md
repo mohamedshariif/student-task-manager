@@ -6,7 +6,7 @@ A modern and responsive web application that helps students manage their daily t
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live app](https://yourusername.github.io/task-manager)
+👉 [Click here to view the live app](https://mohamedshariif.github.io/student-task-manager/)
 
 ---
 
