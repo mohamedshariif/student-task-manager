@@ -168,6 +168,10 @@ body{
 }
 .taskListContainer{
   margin-top: 15px;
+  flex: 1;              /* take remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;     
 }
 .taskListContainer p{
   font-size: 16px;
@@ -194,7 +198,7 @@ body{
   justify-content: space-between;
   gap: 12px;
 
-  background-color: #cfe6cf;
+  background-color: skyblue;
   margin-bottom: 8px;
   padding: 10px 12px;
   border-radius: 10px;
