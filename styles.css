@@ -44,8 +44,9 @@ body{
 }
 .main-content{
   flex: 1;
-  padding: 0px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .header{
   display: flex;
@@ -173,6 +174,7 @@ body{
   font-size: 16px;
 }
 #taskList{
+  flex: 1;
   margin-top: 10px;
   overflow-y: auto;
   padding-right: 0px;
