@@ -486,3 +486,9 @@ renderCalendar(currentDate);
 window.addEventListener("DOMContentLoaded", () => {
   renderTasks();
 });
+
+window.addEventListener('resize', () => {
+  document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+});
+window.dispatchEvent(new Event('resize'));
+
