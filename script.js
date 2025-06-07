@@ -214,10 +214,11 @@ function toggleTaskCompletion(id) {
     renderCalendar(currentDate);
     renderTasks();
   }, 0);
-  /* if(task.completed){
-    showToast(`Task '${task.name}' marked as completed `, 'success');
+  if(task.completed){
+    //showToast(`Task '${task.name}'`, 'success');
+    showToast(`Task '${task.name}' completed`, 'success');
   }
-  else{
+  /* else{
     showToast('task incompelete', 'success');
   } */
 }
